@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "mojo_ai",
   "version": "0.1.0",
@@ -26,3 +27,6 @@
     "typescript": "^5"
   }
 }
+=======
+{"type": "commonjs"}
+>>>>>>> a02729169d6f11e8bf08ba98a08df1b564e8ce12

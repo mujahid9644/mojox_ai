@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 "use client";
 
+=======
+>>>>>>> a02729169d6f11e8bf08ba98a08df1b564e8ce12
 import { useState, useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
