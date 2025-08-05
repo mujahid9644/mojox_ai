@@ -1,0 +1,43 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // ... অন্যান্য অপশন ...
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ] // <-- ✅ নিশ্চিত করুন যে এখানে "./src/*" লেখা আছে
+    },
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "node16",
+    "esModuleInterop": true,
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "next.config.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+  // ... অন্যান্য অপশন ...
+}
